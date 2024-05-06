@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        nav{
+            background-color: lightblue;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 30px;
+            padding: 20px 0px;
+            flex-wrap: wrap;
+        }
+        section{
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            align-items: center;
+        }
+        div{
+            width: 200px;
+            height: 200px;
+        }
+        .div1{
+            background-color: blue;
+        }
+        .div2{
+            background-color: green;
+        }
+        .div3{
+            background-color: red;
+        }
+        .div4{
+            background-color: black;
+        }
+        .div5{
+            background-color: brown;
+        }
+        .div6{
+            background-color: violet;
+        }
+        @media (max-width: 814px) {
+            section{
+                display: block;
+            }
+            .con{
+                background-color: rgba(190, 180, 200, 0.801);
+            }
+            .div6{
+                background-color: black;
+            }
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <a href="">Home</a>
+        <a href="">About</a>
+        <a href="">Sign Up</a>
+        <a href="">Log In</a>
+    </nav>
+    <section>
+        <div class="div1"></div>
+        <div class="div2"></div>
+        <div class="div3"></div>
+        <div class="div4"></div>
+        <div class="div5"></div>
+        <div class="div6"></div>
+    </section>
+    
+</body>
+</html>
